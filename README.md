@@ -6,3 +6,4 @@
 
 创新点2：更改了Giouloss
 
+[训练权重链接](https://drive.google.com/drive/folders/1UAf1Epy_l62kaZCVkoB9ELsK7ZMr7EG6?hl=zh-CN)
