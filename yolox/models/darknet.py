@@ -124,7 +124,7 @@ class CSPDarknet(nn.Module):
                 depthwise=depthwise,
                 act=act,
             ),
-            # CBAM(base_channels * 2, base_channels * 2)
+            CBAM(base_channels * 2, base_channels * 2)
         )
 
         # dark3
@@ -137,7 +137,7 @@ class CSPDarknet(nn.Module):
                 depthwise=depthwise,
                 act=act,
             ),
-            # CBAM(base_channels * 4, base_channels * 4)
+            CBAM(base_channels * 4, base_channels * 4)
             # CrissCrossAttention(base_channels * 4),
         )
 
@@ -167,7 +167,7 @@ class CSPDarknet(nn.Module):
                 depthwise=depthwise,
                 act=act,
             ),
-            # CABlock(base_channels * 16, base_channels * 16),
+            CABlock(base_channels * 16, base_channels * 16),
             # CrissCrossAttention(base_channels * 16),
         )
 
